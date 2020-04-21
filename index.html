@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <meta name="viewport"
+    content="width=device-width",
+    initial-scale="1">
+    <body>
+        <div id="register_page">
+            <h2>Register a Subway Account</h2>
+            <div>
+                First Name:<br>
+                <input type="text" id="first_name" placeholder="John"><br>
+                Last Name:<br>
+                <input type="text" id="last_name" placeholder="Doe"><br>
+                Email:<br>
+                <input type="text" id="email" placeholder="johndoe@gmail.com"><br>
+                Password:<br>
+                <input type="text" id="password" placeholder="password"><br>
+                Confirm Password:<br>
+                <input type="tex" id="confirm_password" placeholder="password"><br>
+                <button class="button" id="submit_register">Register</button>
+                <p>Go back to login page</p>
+                <button class="button" id="display_login">Login Page</button>
+                <p id="account_created">Account created! Thank you! Go to login page!</p>
+                <p id="match_failure">Passwords did not match, plese type them again</p>
+                <p id="duplicate_email">Email already exists! Please Try a different one</p>
+            </div>
+        </div>
+        <div id="login_page">
+            <h2>Login to your Subway Account</h2>
+            <div>
+                <!-- <input type="text" id="first_name_login" placeholder="first name"><br>
+                <input type="text" id="last_name_login" placeholder="last name"><br> -->
+                <input type="text" id="email_login" placeholder="email"><br>
+                <input type="password" id="password_login" placeholder="password"><br>
+                <input type="checkbox" id="showPassword">Show Password<br>
+                <button class="button" id="submit_login">Login</button>
+
+                <p>Don't have an account yet? Register Here</p>
+                <button class="button" id="display_register">Register Page</button>
+                <p id="login_error">Login Error. Please Re-Check Password and Email</p>
+            </div>
+        </div>
+        <div id="main_div" class="hero_image">
+            <h1>The Perfect Subway Sandwich</h1>
+            <h2>What are the ingredients in a perfect subway sandwich?</h2>
+            <img src="subway_hero.jpg" width="400px">
+            <div class="cover">
+                    <div class="inner_input">
+                        <p id="name_id">What is the name of your sandwich?</p>
+                        <input type="text" id="sandwich_name" placeholder="sandwich name" > <br>
+                        <p>( bread? meat? cheese? vegies? sauces? )</p>
+                        <input type="text" id="bread" placeholder="bread" > <br>
+                        <input type="text" id="meat" placeholder="meat" > <br>
+                        <input type="text" id="cheese" placeholder="cheese" > <br>
+                        <input type="text" id="veggies" placeholder="veggies" > <br>
+                        <input type="text" id="sauces" placeholder="sauces" > <br>
+                        <button class="button" id="submit-button">Submit</button>
+                        <br>
+                    </div>
+                <div class="big_container">
+                    <div class="container">
+                        <div id="sandwich-div">
+                            <p id="my-sandwich">My Sandwiches</p>
+                            <ul id="sandwich-list">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <script src="app.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

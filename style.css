@@ -1,0 +1,178 @@
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white
+}
+
+.other {
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+#submit_register {
+    background-color: orange;
+}
+#login_page {
+    display: none;
+}
+#display_login {
+    background-color: green;
+}
+
+#submit_login {
+    background-color: orange;
+}
+
+#display_register {
+    background-color: green;
+}
+
+#main_div {
+    display: none;
+}
+
+#register_page {
+    display: none;
+}
+
+#login_error {
+    color: red;
+    display: none;
+}
+
+#match_failure {
+    display: none;
+    color: red;
+}
+
+#account_created {
+    display: none;
+    color: green;
+}
+
+#duplicate_email {
+    display: none;
+    color: red;
+}
+
+h1 {
+    background-color: #FF8201;
+    border: solid;
+    border-radius: 3px;
+    border-color: grey;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+#sandwich-list {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+}
+
+#sandwich-div {
+    width: 300px;
+    background-color: white;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input_area input {
+    width: 100px;
+    display: inline;
+}
+
+.big_container {
+    display: inline-block;
+}
+
+
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+
+#my-sandwich {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button {
+    border-radius: 3px;
+    border-style: solid;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px 5px;
+    border-color: black;
+    color: white;
+    margin: 5px;
+}
+
+#name_id {
+    font-size: 20px;
+}
+
+#submit-button {
+    background-color: purple;
+}
+
+#delete-button {
+    background-color: purple;
+}
+
+#edit-button {
+    background-color: orange;
+}
+
+#cancel-button {
+    background-color: orange;
+}
+
+.sandwich-item {
+    border-radius: 3px;
+    border-style: solid;
+    padding: 3px 3px;
+    border-color: black;
+    color: white;
+    width: 100px;
+    background-color: green;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.input_area {
+    display: inline-block;
+}
+
+.cover {
+    display: block;
+}
+
+.inner_input {
+    display: block;
+}
